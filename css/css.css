@@ -1,0 +1,16 @@
+*{
+    color:black
+}
+
+nav{
+    background-color: rgb(245, 230, 180);
+    padding: 8px 0px 8px 0px;
+    background-size:auto;
+    position: static;
+
+}
+
+img{
+    width: auto;
+    height: 700px;
+}
