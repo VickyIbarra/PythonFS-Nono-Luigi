@@ -2,7 +2,14 @@
     color:black;
 }
 
-header{
+#contenedor1{
+    background-color: rgb(245, 230, 180);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/*header{
     display: block;
 }
 
@@ -13,16 +20,25 @@ header nav{
     width: 100%;
     padding-bottom: 5px;
     padding-top: 5px;
-}
+}*/
 
 a{
+    display: flex;
     text-decoration: none;
     padding: 8px 5px 8px 10px;
 }
 
-#home{
+#contenedor2{
     background-color: black;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}    
+
+
+/*#home{
+    background-color: black;
+}*/
 
 #home h1, h2{
     color: white;
@@ -38,10 +54,15 @@ a{
     padding: 0 0 0 26%;
 }
 
+#contenedor3{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
 #nosotros img{
     width: auto;
     height: 350px;
-    float:inline-end;
     margin: 0 0 0 15px;
 }
 
