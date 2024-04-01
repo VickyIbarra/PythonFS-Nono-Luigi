@@ -1,16 +1,54 @@
 *{
-    color:black
+    color:black;
 }
 
-nav{
+header{
+    display: block;
+}
+
+header nav{
+    display: inline-block;
+    text-align: right;
     background-color: rgb(245, 230, 180);
-    padding: 8px 0px 8px 0px;
-    background-size:auto;
-    position: static;
-
+    width: 100%;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
-img{
+a{
+    text-decoration: none;
+    padding: 8px 5px 8px 10px;
+}
+
+#home{
+    background-color: black;
+}
+
+#home h1, h2{
+    color: white;
+    text-align: center;
+    padding-right: 5%;
+}
+
+#home img{
+    position: relative;
+    height: 350px;
     width: auto;
-    height: 700px;
+    opacity: 0.8;
+    padding: 0 0 0 26%;
+}
+
+#nosotros img{
+    width: auto;
+    height: 350px;
+    float:inline-end;
+    margin: 0 0 0 15px;
+}
+
+#nosotros p{
+    text-align: justify;
+}
+
+footer{
+    font-weight: bold;
 }
