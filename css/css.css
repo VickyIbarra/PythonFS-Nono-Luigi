@@ -18,6 +18,55 @@ img{
     width: auto;
     height: 700px;
 }
+/*contenedor 2:home*/
+@font-face{
+    font-family: BrittanySignature;
+    src: url(../img/BrittanySignature.ttf);
+}   
+#contenedor2 h5{
+    font-family: BrittanySignature;
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+  
+}
+/*#home{
+    background-color: black;
+}*/
+
+#home h1, h2{
+    color: white;
+    text-align: center;
+    padding-right: 5%;
+}
+
+#home img{
+    position: relative;
+    height: 350px;
+    width: auto;
+    opacity: 0.8;
+    padding: 0 0 0 26%;
+}
+/*whatsapp*/
+.wsapp{
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    color: rgb(5, 129, 5);
+    transition: transform 0.2s ease-in-out;/*para hacer un cambio de tamano suave*/
+    }
+    @media screen and (max-width: 800px) {
+        .wsapp {
+          font-size: 1.5rem;
+          transform: scale(0.8);
+        }
+      }
+      
+      @media screen and (max-width: 480px) {
+        .wsapp {
+          font-size: 1.2rem;
+          transform: scale(0.6);
+        }
+      }
 /*footer*/
 
 .pie-pagina{
