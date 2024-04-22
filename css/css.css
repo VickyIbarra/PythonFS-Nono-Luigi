@@ -1,75 +1,93 @@
 *{
-    color:black;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
 }
 
-#contenedor1{
+nav{
     background-color: rgb(245, 230, 180);
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    padding: 8px 0px 8px 0px;
+    background-size:auto;
+    position: static;
+    
+
 }
 
-/*header{
-    display: block;
+img{
+    width: auto;
+    height: 700px;
 }
+/*footer*/
 
-header nav{
-    display: inline-block;
-    text-align: right;
-    background-color: rgb(245, 230, 180);
+.pie-pagina{
+    background-color:#0a141d;
     width: 100%;
-    padding-bottom: 5px;
-    padding-top: 5px;
-}*/
+    
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);/*que se repita 3 columnas y ocupe todo el ancho*/
+    grid-gap: 50px;
+    padding: 45px 0px;
 
-a{
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 30px;
     display: flex;
+    justify-content: center;
+    align-items: center;/*alinea verticalmente*/
+
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 200px;
+    height: auto;
+    margin-top: 190px;
+    
+}
+.pie-pagina .grupo-1 .box h2{
+    color:white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color:#efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
     text-decoration: none;
-    padding: 8px 5px 8px 10px;
-}
-
-#contenedor2{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}    
-
-
-/*#home{
-    background-color: black;
-}*/
-
-#home h1, h2{
-    color: white;
+    width: 45px;
+    height: 45px;
+    line-height:45px;
+    color: #ffffff;
+    margin-right: 10px;
+    background-color: #0d2033;
     text-align: center;
-    padding-right: 5%;
+    transition: all 300ms ease;
 }
-
-#home img{
-    position: relative;
-    height: 350px;
-    width: auto;
-    opacity: 0.8;
-    padding: 0 0 0 26%;
+.pie-pagina .grupo-1 .red-social a:hover{
+    color:aqua;
 }
-
-#contenedor3{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color:#ffffff;
 }
-
-#nosotros img{
-    width: auto;
-    height: 350px;
-    margin: 0 0 0 15px;
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
 }
-
-#nosotros p{
-    text-align: justify;
-}
-
-footer{
-    font-weight: bold;
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);/*que se repita 3 columnas y ocupe todo el ancho*/
+        grid-gap: 30px;
+        padding: 35px 0px;
+    
+    }
 }
