@@ -47,7 +47,7 @@ img{
     padding: 0 0 0 26%;
 }
 /*whatsapp*/
-.wsapp{
+.wsapp a{
     position: fixed;
     bottom: 20px;
     right:20px;
