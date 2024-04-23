@@ -10,9 +10,8 @@ nav{
     padding: 8px 0px 8px 0px;
     background-size:auto;
     position: static;
-    
 
-}
+  }
 
 img{
     width: auto;
@@ -37,6 +36,7 @@ img{
     color: white;
     text-align: center;
     padding-right: 5%;
+   
 }
 
 #home img{
@@ -46,8 +46,34 @@ img{
     opacity: 0.8;
     padding: 0 0 0 26%;
 }
+.section{
+    margin: 20px,40px,20px,40px
+}
+
+/*sucursales*/
+.mapas{
+    padding: 100px 0 100px 0;
+    display: flex;
+    justify-content:space-between;
+}
+.sucursales h3{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.sucursal1{
+    margin-bottom: 35px;
+    margin-left: 50px;
+
+}
+.sucursal2{
+    margin-bottom: 35px;
+    margin-left: 100px;
+}
+
+
 /*whatsapp*/
-.wsapp a{
+.wsapp a {
     position: fixed;
     bottom: 20px;
     right:20px;
@@ -67,11 +93,100 @@ img{
           transform: scale(0.6);
         }
       }
+
+/*formulario contacto*/
+
+.content{
+    background:rgb(102, 102, 102) ;
+    color:#0a141d;
+    padding: 50px 30px 70px 30px ;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top: 70px;
+    
+}
+.content h2{
+    text-align: center;
+    font-size: 40px;
+    color:black;
+    
+    
+    }
+.contact-wrapper{
+    box-shadow: 0 0 20px 0 rgba(252, 248, 248, 0.6);
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+.contact-wrapper > * {
+    padding: 1em;
+
+}
+
+.contact-form{
+    background: rgb(158, 157, 157);
+}
+.contact-form form{
+    display:grid;
+    grid-template-columns:1fr 1fr ;
+}
+
+.contact-form form .block{
+    grid-column: 1 / 3;
+}
+.contact-form form p{
+    margin:7px;
+    padding: 5px;
+
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+width: 100%;
+padding:5px;
+border: none;
+background: none;
+border-bottom: 1px solid white;
+outline: none;
+color:white
+}
+.contact-form form button{
+    background: rgb(77, 76, 76);
+    border:none;
+    text-transform:uppercase ;
+    padding:1px;
+}
+.contact-form form button:hover,
+.contact-form form :focus{
+    background: white;
+    color:black;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+.contact-img{
+    background: #3a3a3a;
+    
+}
+.contact-img img{
+    height: 250px;
+    padding:50px 20px 10px 10px;
+    margin-left: 60px;
+    margin-top: 30px;
+ 
+}
+.contact-img h6{
+    text-align: center;
+    color:white;
+}
+
 /*footer*/
 
 .pie-pagina{
     background-color:#0a141d;
     width: 100%;
+    margin-top: 100px;
     
 }
 .pie-pagina .grupo-1{
