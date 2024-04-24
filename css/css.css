@@ -61,18 +61,32 @@
 .col-12 { grid-column: span 12; }
 
 /* Estilos adicionales según tu diseño */
+header{
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+    top:0;
+
+}
 nav {
     display: block;
-    background-color: rgb(109,116,86);
-    padding: 8px 0px 8px 20px;
+    height: 70px;
+    background-color: rgb(109,116,86,0.8);
+    padding: 20px 0px 0px 10px;
     background-size: 100%;
-    position: static;
+    text-align: center;
+   
 }
 
 nav a{
     text-decoration: none;
-    padding: 0 10px 0 0;
     color: #efefef;
+    font-size: 17px;
+    padding:20px;
+    
+}
+nav a:hover{
+    color:black;
 }
 
 img{
@@ -83,7 +97,15 @@ img{
 @font-face{
     font-family: BrittanySignature;
     src: url(../img/BrittanySignature.ttf);
-}   
+} 
+#contenedor2{
+    margin-bottom: 100px;
+    margin-top: auto;
+    }
+#carouselExampleCaptions .carousel-inner img{
+    height: 600px;
+    
+}
 #contenedor2 h5{
     font-family: BrittanySignature;
     font-size: 50px;
@@ -92,12 +114,14 @@ img{
 }
 
 #home h1, h2{
-    color: white;
+    color: rgb(5, 5, 5);
     text-align: center;
     padding-right: 5%;
    
 }
-
+#home p{
+    color:black;
+}
 #home img{
     position: relative;
     height: 350px;
@@ -232,9 +256,9 @@ color:white;
 .contact-img img{
     height: 250px;
     padding:50px 20px 10px 10px;
-    margin-left: 60px;
+    margin-left: 0px;
     margin-right: 80px;
-    margin-top: 30px;
+    margin-top: 20px;
  
 }
 .contact-img h6{
