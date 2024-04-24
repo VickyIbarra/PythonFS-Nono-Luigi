@@ -1,10 +1,10 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    
 }
 
+<<<<<<< Updated upstream
 nav{
     background-color: rgb(109,116,86);
     padding: 8px 0px 8px 0px;
@@ -12,14 +12,85 @@ nav{
     position: static;
     
   }
+=======
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        max-width: 100%;
+        padding: 20px;
+    }
+}
+
+/* Estilos para PC */
+@media (min-width: 1024px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 10px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Ejemplo de definición de clases para columnas */
+.col-1 { grid-column: span 1; }
+.col-2 { grid-column: span 2; }
+.col-3 { grid-column: span 3; }
+.col-4 { grid-column: span 4; }
+.col-5 { grid-column: span 5; }
+.col-6 { grid-column: span 6; }
+.col-7 { grid-column: span 7; }
+.col-8 { grid-column: span 8; }
+.col-9 { grid-column: span 9; }
+.col-10 { grid-column: span 10; }
+.col-11 { grid-column: span 11; }
+.col-12 { grid-column: span 12; }
+
+/* Estilos adicionales según tu diseño */
+nav {
+    display: block;
+    background-color: rgb(245, 230, 180);
+    padding: 8px 0px 8px 20px;
+    background-size: 100%;
+    position: static;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0 10px 0 0;
+}
+>>>>>>> Stashed changes
 
 nav a{
     color: #efefef;
 }
 
 img{
-    width: auto;
-    height: 700px;
+    width: 100%;
+    height: auto;
 }
 /*contenedor 2:home*/
 @font-face{
@@ -60,7 +131,7 @@ img{
     display: flex;
     justify-content:space-between;
 }
-.sucursales h3{
+#sucursales h3{
     text-align: center;
     font-size: 40px;
     margin-top: 100px;
@@ -188,13 +259,18 @@ color:white;
 
 /*footer*/
 
+<<<<<<< Updated upstream
 .pie-pagina{
     background-color:rgb(109,116,86);
+=======
+#pie-pagina{
+    background-color:#0a141d;
+>>>>>>> Stashed changes
     width: 100%;
     margin-top: 100px;
     
 }
-.pie-pagina .grupo-1{
+#pie-pagina .grupo-1{
     width: 100%;
     max-width: 1200px;
     margin: auto;
@@ -204,7 +280,7 @@ color:white;
     padding: 45px 0px;
 
 }
-.pie-pagina .grupo-1 .box figure{
+#pie-pagina .grupo-1 .box figure{
     width: 100%;
     height: 30px;
     display: flex;
@@ -212,22 +288,22 @@ color:white;
     align-items: center;/*alinea verticalmente*/
 
 }
-.pie-pagina .grupo-1 .box figure img{
+#pie-pagina .grupo-1 .box figure img{
     width: 200px;
     height: auto;
     margin-top: 190px;
     
 }
-.pie-pagina .grupo-1 .box h2{
+#pie-pagina .grupo-1 .box h2{
     color:white;
     margin-bottom: 25px;
     font-size: 20px;
 }
-.pie-pagina .grupo-1 .box p{
+#pie-pagina .grupo-1 .box p{
     color:#efefef;
     margin-bottom: 10px;
 }
-.pie-pagina .grupo-1 .red-social a{
+#pie-pagina .grupo-1 .red-social a{
     display: inline-block;
     text-decoration: none;
     width: 45px;
@@ -239,20 +315,25 @@ color:white;
     text-align: center;
     transition: all 300ms ease;
 }
-.pie-pagina .grupo-1 .red-social a:hover{
+#pie-pagina .grupo-1 .red-social a:hover{
     color:aqua;
 }
+<<<<<<< Updated upstream
 .pie-pagina .grupo-2{
     background-color: rgb(109,116,86);
+=======
+#pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+>>>>>>> Stashed changes
     padding: 15px 10px;
     text-align: center;
     color:#ffffff;
 }
-.pie-pagina .grupo-2 small{
+#pie-pagina .grupo-2 small{
     font-size: 15px;
 }
 @media screen and (max-width:800px){
-    .pie-pagina .grupo-1{
+    #pie-pagina .grupo-1{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);/*que se repita 3 columnas y ocupe todo el ancho*/
         grid-gap: 30px;
