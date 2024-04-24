@@ -4,15 +4,6 @@
     box-sizing: border-box;
 }
 
-<<<<<<< Updated upstream
-nav{
-    background-color: rgb(109,116,86);
-    padding: 8px 0px 8px 0px;
-    background-size:auto;
-    position: static;
-    
-  }
-=======
 /* Estilos para dispositivos móviles */
 @media (max-width: 767px) {
     .grid-container {
@@ -72,7 +63,7 @@ nav{
 /* Estilos adicionales según tu diseño */
 nav {
     display: block;
-    background-color: rgb(245, 230, 180);
+    background-color: rgb(109,116,86);
     padding: 8px 0px 8px 20px;
     background-size: 100%;
     position: static;
@@ -81,10 +72,6 @@ nav {
 nav a{
     text-decoration: none;
     padding: 0 10px 0 0;
-}
->>>>>>> Stashed changes
-
-nav a{
     color: #efefef;
 }
 
@@ -103,9 +90,6 @@ img{
     color:rgb(0, 0, 0);
   
 }
-/*#home{
-    background-color: black;
-}*/
 
 #home h1, h2{
     color: white;
@@ -155,14 +139,14 @@ img{
     color: rgb(37, 211, 102);
     transition: transform 0.2s ease-in-out;/*para hacer un cambio de tamano suave*/
     }
-    @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
         .wsapp {
           font-size: 1.5rem;
           transform: scale(0.8);
         }
       }
       
-      @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
         .wsapp {
           font-size: 1.2rem;
           transform: scale(0.6);
@@ -189,7 +173,7 @@ img{
     
     }
 .contact-wrapper{
-    box-shadow: 0 0 20px 0 rgba(252, 248, 248, 0.6);
+    box-shadow: 0 0 20px 0 rgba(165, 92, 92, 0.6);
     display:grid;
     grid-template-columns: 2fr 1fr;
 }
@@ -243,12 +227,13 @@ color:white;
 
 .contact-img{
     background: #3a3a3a;
-    
+       
 }
 .contact-img img{
     height: 250px;
     padding:50px 20px 10px 10px;
     margin-left: 60px;
+    margin-right: 80px;
     margin-top: 30px;
  
 }
@@ -258,18 +243,15 @@ color:white;
 }
 
 /*footer*/
-
-<<<<<<< Updated upstream
-.pie-pagina{
-    background-color:rgb(109,116,86);
-=======
 #pie-pagina{
-    background-color:#0a141d;
->>>>>>> Stashed changes
+    position: relative ;
+    bottom: 0;
+    background-color:rgb(109,116,86);
     width: 100%;
-    margin-top: 100px;
+    padding: 5%;
     
 }
+
 #pie-pagina .grupo-1{
     width: 100%;
     max-width: 1200px;
@@ -277,7 +259,7 @@ color:white;
     display:grid;
     grid-template-columns: repeat(3,1fr);/*que se repita 3 columnas y ocupe todo el ancho*/
     grid-gap: 50px;
-    padding: 45px 0px;
+    padding: 40px 0px;
 
 }
 #pie-pagina .grupo-1 .box figure{
@@ -289,7 +271,7 @@ color:white;
 
 }
 #pie-pagina .grupo-1 .box figure img{
-    width: 200px;
+    width: 100px;
     height: auto;
     margin-top: 190px;
     
@@ -318,13 +300,8 @@ color:white;
 #pie-pagina .grupo-1 .red-social a:hover{
     color:aqua;
 }
-<<<<<<< Updated upstream
 .pie-pagina .grupo-2{
     background-color: rgb(109,116,86);
-=======
-#pie-pagina .grupo-2{
-    background-color: #0a1a2a;
->>>>>>> Stashed changes
     padding: 15px 10px;
     text-align: center;
     color:#ffffff;
