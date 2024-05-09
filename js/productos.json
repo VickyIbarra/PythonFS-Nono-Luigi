@@ -1,0 +1,104 @@
+[
+    {
+        "id":"1",
+        "Variedad":"moñitos",
+        "precio por kg":"$2400"
+    },
+    {
+        "id":"2",
+        "variedad":"rigatti",
+        "Precio por kg":"$2400"
+
+    },
+    {
+        "id":"3",
+        "Variedad":"fusciles",
+        "precio por kg":"$2500"
+    },
+    {
+        "id":"4",
+        "Variedad":"ñoquis de papa",
+        "precio por kg":"$2400"
+    },
+    {
+        "id":"5",
+        "Variedad":"ñoquis de espinaca",
+        "precio por kg":"$2500"
+    },
+    {
+        "id":"6",
+        "Variedad":"ñoquis de calabaza",
+        "precio por kg":"$2500"
+    },
+    {
+        "id":"7",
+        "Variedad":"ñoquis tricolor",
+        "precio por kg":"$2500"
+    },
+    {
+        "id":"8",
+        "Variedad":"tallarines al huevo",
+        "precio por kg":"$2500"
+    },
+    {
+        "id":"9",
+        "Variedad":"tallarines de espinaca",
+        "precio por kg":"$2600"
+    },
+    {
+        "id":"10",
+        "Variedad":"tallarines al morrón",
+        "precio por kg":"$2600"
+    },
+    {
+        "id":"11",
+        "Variedad":"ravioles de calabaza y muzzarella",
+        "precio por kg":"$3000"
+    },
+    {
+        "id":"12",
+        "Variedad":"ravioles de jamon y queso",
+        "precio por kg":"$3000"
+    },
+    {
+        "id":"13",
+        "Variedad":"ravioles de verdura y carne",
+        "precio por kg":"$3000"
+    },
+    {
+        "id":"14",
+        "Variedad":"ravioles 4 quesos",
+        "precio por kg":"$3000"
+    },
+    {
+        "id":"15",
+        "Variedad":"sorrentinos jamon y queso ",
+        "precio por kg":"$4500"
+    },
+    {
+        "id":"16",
+        "Variedad":"sorrentinos calabaza y queso ",
+        "precio por kg":"$4500"
+    },
+    {
+        "id":"17",
+        "Variedad":"sorrentinos ricota y nuez ",
+        "precio por kg":"$4500"
+    },
+    {
+        "id":"18",
+        "Variedad":"sorrentinos capresse ",
+        "precio por kg":"$4500"
+    },
+    {
+        "id":"19",
+        "Variedad":"torteloni de jamon y queso ",
+        "precio por kg":"$5000"
+    },
+    {
+        "id":"20",
+        "Variedad":"torteloni de verdura y pollo ",
+        "precio por kg":"$5000"
+    }
+    
+]
