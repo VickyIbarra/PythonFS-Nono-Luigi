@@ -385,6 +385,12 @@ color:white;
     transition: background-color 1s ease-out;
     outline: 0;
 }
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: none; 
+}
 
 .contact-img{
     background: #3a3a3a;
