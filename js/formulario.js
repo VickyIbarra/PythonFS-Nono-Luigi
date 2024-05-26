@@ -1,4 +1,3 @@
-/*consumo API*/
 const d = document;
 const selectProv= d.getElementById("selectProvincias");
 
@@ -16,6 +15,5 @@ function provincia(){
 }
     
     
-
 
 d.addEventListener("DOMContentLoaded",provincia)

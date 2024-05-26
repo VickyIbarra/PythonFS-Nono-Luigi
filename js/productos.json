@@ -3,103 +3,122 @@
         "id": 1,
         "variedad":"moñitos",
         "precio": 2400,
-        "imagen": "./img/Producto1"
+        "imagen": "./img/Producto1.PNG"
     },
     {
         "id": 2 ,
         "variedad":"rigatti",
-        "precio": 2400
+        "precio": 2400,
+        "imagen": "./img/Producto2.PNG"
 
     },
     {
         "id": 3 ,
         "variedad":"fusciles",
-        "precio": 2500
+        "precio": 2500,
+        "imagen": "./img/Producto3.PNG"
     },
     {
         "id": 4 ,
         "variedad":"ñoquis de papa",
-        "precio": 2400
+        "precio": 2400,
+        "imagen": "./img/Producto4.JPG"
     },
     {
         "id": 5 ,
         "variedad":"ñoquis de espinaca",
-        "precio": 2500 
+        "precio": 2500,
+        "imagen": "./img/Producto5.PNG"
     },
     {
         "id": 6 ,
         "variedad":"ñoquis de calabaza",
-        "precio": 2500
+        "precio": 2500,
+        "imagen": "./img/Producto6.PNG"
     },
     {
         "id": 7 ,
         "variedad":"ñoquis tricolor",
-        "precio": 2500
+        "precio": 2500,
+        "imagen": "./img/Producto7.JPG"
     },
     {
         "id": 8 ,
         "variedad":"tallarines al huevo",
-        "precio": 2500
+        "precio": 2500,
+        "imagen": "./img/Producto8.JPEG"
     },
     {
         "id": 9 ,
         "variedad":"tallarines de espinaca",
-        "precio": 2600
+        "precio": 2600,
+        "imagen": "./img/Producto9.JPEG"
     },
     {
         "id": 10 ,
         "variedad":"tallarines al morrón",
-        "precio": 2600 
+        "precio": 2600,
+        "imagen": "./img/Producto10.JPG"
     },
     {
         "id": 11 ,
         "variedad":"ravioles de calabaza y muzzarella",
-        "precio": 3000 
+        "precio": 3000,
+        "imagen": "./img/Producto11.JPG"
     },
     {
         "id": 12 ,
         "variedad":"ravioles de jamon y queso",
-        "precio": 3000
+        "precio": 3000,
+        "imagen": "./img/Producto12.JPG"
     },
     {
         "id": 13 ,
         "variedad":"ravioles de verdura y carne",
-        "precio": 3000
+        "precio": 3000,
+        "imagen": "./img/Producto13.PNG"
     },
     {
         "id": 14 ,
         "variedad":"ravioles 4 quesos",
-        "precio": 3000
+        "precio": 3000,
+        "imagen": "./img/Producto14.JPG"
     },
     {
         "id": 15 ,
         "variedad":"sorrentinos ricota y nuez",
-        "precio": 4500 
+        "precio": 4500,
+        "imagen": "./img/Producto15.JPG"
     },
     {
         "id": 16 ,
         "variedad":"sorrentinos capresse",
-        "precio": 4500
+        "precio": 4500,
+        "imagen": "./img/Producto16.PNG"
     },
     {
         "id": 17 ,
         "variedad":"torteloni de jamon y queso",
-        "precio": 5000
+        "precio": 5000,
+        "imagen": "./img/Producto17.PNG"
     },
     {
         "id": 18 ,
         "variedad":"torteloni de verdura y pollo",
-        "precio": 5000
+        "precio": 5000,
+        "imagen": "./img/Producto18.JPG"
     },
     {
         "id": 19 ,
         "variedad":"Tapas para lasagna",
-        "precio": 2000
+        "precio": 2000,
+        "imagen": "./img/Producto19.PNG"
     },
     {
         "id": 20 ,
         "variedad":"Tapas de empanadas",
-        "precio": 2000
+        "precio": 2000,
+        "imagen": "./img/Producto20.PNG"
     }
     
 ]
