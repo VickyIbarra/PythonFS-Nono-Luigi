@@ -6,87 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Il Nono Luigui</title>
     <link rel="shortcut icon" href="./img/favicon_empresa.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
-<body class="grid-container">
-    <header class="col-12">
-        <nav id="logo">
-            <a >
-                <img class="animate__animated animate__wobble" src="./img/Logo Nono.png" alt="logo empresa">
-            </a>
+<body>
+    <header>
+        <nav class="navBar">
+            <div class="animate__animated animate__backInLeft container">
+                <a href="./index.html">
+                    <img class="animate__animated animate__wobble logo" src="./img/logo empresa.png"
+                        alt="logo empresa">
+                </a>
+               <p class="logoLetra"> Il Nono Luigi</p>
+            </div>
+            <div class="tipografia">
+                <ul>
+                    <a href="#home">Home</a>
+                    <a href="#nosotros">Sobre nosotros</a>
+                    <a href="./productos.html">Productos</a>
+                    <a href="#sucursales">Sucursales</a>
+                    <a href="#contacto">Contacto</a>
+                </ul>
+            </div>
         </nav>
-       <nav>
-            <a href="#home">Home</a>
-            <a href="#nosotros">Sobre nosotros</a>
-            <a href="./productos.html">Productos</a>
-            <a href="#contacto">Contacto</a>
-            <a href="#sucursales">Sucursales</a>
-        </nav>
-        
     </header>
     <main>
-        <section class="col-12" id="home">
-            <div id="contenedor2">
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
+     
+            <div class="carouselDiv" id="home">
+                <div class="carousel">
+                    <div class="image-container" id="imgs">
+                        <img class="imgCarusel" src="./img/carrusel1.jpg" />
+                        <img class="imgCarusel" src="./img/carrusel2.png" />
+                        <img class="imgCarusel" src="./img/carrusel3.jpg" />
+                        <img class="imgCarusel" src="./img/carrusel4.jpg" />
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./img/rigatoni-1128768_1280.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Il nono Luigui</h5>
-                                <p>El arte de la pasta desde 1980</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./img/a2db9857e7c2ffd8e34f985c3266c4a0.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Il nono Luigui</h5>
-                                <p>El arte de la pasta desde 1980</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./img/sorrentinos.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Il nono Luigui</h5>
-                                <p>El arte de la pasta desde 1980</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
-        </section>
 
-        <section class="col-12" id="nosotros">
+
+        <section id="nosotros">
             <div id="titulo1">
                <h3>Un poco de historia</h3>
             </div>
             <div class="background1"></div>
-            <div class="luigui">
-               <img src="./img/fabrica2.avif" alt="fundadores">
-            </div>
+            <div class="luigi">
+               <img src="./img/nosotros1.jpeg" alt="fundadores">
+
             <div class="texto1">
               <p>
                 Luigui Bianci llegó a Buenos Aires, Argentina en el año  ?. Inmigrante italiano lleno de sueños y ambiciones.
@@ -95,14 +68,14 @@
                  Pronto se ganó el corazón de la comunidad local, la cual lo alento a hacer realidad su sueño.
                </p>
             </div>
+        </div>
             <div id="titulo2">
                 <h3>La fabrica</h3>
             </div>
             <div class="background2"></div>
             <div class="fabrica">
-                <img src="./img/con-un-enorme-trabajo-artesanal-y-mucha-QLELMEWNDVBEVPZ6JXGP4FKA7A.jpg " alt="fabrica">
-               
-            </div>
+                <img src="./img/nosotros2.jpg" alt="fabrica">
+
            <div class="texto2">
             <p>En el año 1980, decidido a compartir su pasión por la gastronomía italiana, fundó una pequeña
                 fábrica de pastas artesanales, la cual llamó "Il Nono Luigui", en honor a su abuelo.La fábrica prosperó gracias a la dedicación y el conocimiento de Luigui en la elaboración de pastas de
@@ -113,6 +86,7 @@
                 producción de pastas exquisitas.
             </p>
            </div>
+        </div>
            <div id="titulo3">
             <h3>Actualidad</h3>
            </div>
@@ -122,41 +96,59 @@
             <img src="./img/local2.jpg">
             <img src="./img/local3.jpg">
             <img src="./img/local4.jpg">
-           </div>
+        </div>
+
            <div class="texto3">
             <p>Tras la triste partida de Luigui, Marco y Sofia tomaron las riendas de la fábrica. Con determinación y
                 respeto
                 por las tradiciones familiares, expandieron el negocio, manteniendo la calidad y el sabor que
                 caracterizan a nuestras pastas.
                 Actualmente podes encontrarnos en nuestros 4 locales.
-                
             </p>
         </div>
+
         </section>
 
-        <section class="col-12" id="sucursales">
+        <section id="sucursales">
             <div>
                 <h3>Donde podes encontrarnos?</h3>
             </div>
             <div class="mapas">
                 <div class="sucursal1">
-                    <h6>Il nono Luigui sucursal - Santa Fe - Casilda: Blvd. Ovidio Lagos 1599</h6>
+                    <h6>Il nono Luigi sucursal - Santa Fe - Casilda: Blvd. Ovidio Lagos 1599</h6>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.331556298648!2d-61.16294991514487!3d-33.0477369093197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b62d49b08d7ee1%3A0xb0f968f42d49d2f1!2sBlvd.%20Ovidio%20Lagos%201599%2C%20Casilda%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1713891960571!5m2!1ses!2sar"
                         width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="sucursal2">
-                    <h6>Il nono Luigui sucursal - Santiago del Estero - Capital: Pedro Leon Gallo 399 </h6>
+                    <h6>Il nono Luigi sucursal - Santiago del Estero - Capital: Pedro Leon Gallo 399 </h6>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3529.5247530266624!2d-64.26589302558865!3d-27.793614130583123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943b520d0a2628d1%3A0x11640019b146934!2sPedro%20Le%C3%B3n%20Gallo%20399%2C%20G4200%20Santiago%20del%20Estero!5e0!3m2!1ses!2sar!4v1713891472722!5m2!1ses!2sar"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="sucursal3">
+                    <h6>Il nono Luigi sucursal - Buenos Aires - Ciudad autonoma de Buenos Aires: Av. Pres. Figueroa
+                        Alcorta 7597 </h6>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.288699752514!2d-58.45171605321403!3d-34.54624503810307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb43ae6018ddf%3A0x3d7f60a75bfa308a!2sEstadio%20Monumental!5e0!3m2!1ses!2sar!4v1715734893294!5m2!1ses!2sar"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="sucursal4">
+                    <h6>Il nono Luigi sucursal - Buenos Aires - Ciudad autonoma de Buenos Aires: Sarmiento 741 </h6>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.981438318267!2d-58.37978772570191!3d-34.60463087295391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb005f65ca9f%3A0xe0a9c22a4a334d64!2sCorrientes%20y%20callao!5e0!3m2!1ses!2sar!4v1715735117858!5m2!1ses!2sar"
                         width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>
 
-        <section class="col-12" id="contacto">
+        <section id="contacto">
             <div class="wsapp">
                 <a href="https://wa.me/+540346415693002" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-whatsapp fa-4x"></i>
@@ -166,25 +158,29 @@
                 <h2>Contactanos</h2>
                 <div class="contact-wrapper">
                     <div class="contact-form">
-                        <form action="">
+                        <form  id="formulario" action="">
                             <p>
                                 <label for="nombreCompleto"> Nombre completo</label>
-                                <input type="text" name="nombreCompleto" id="nombreCompleto">
+                                <input type="text" name="Nombre_completo" id="nombreCompleto" autocomplete="name">
+                                <span class="error-message" id="error-nombreCompleto"></span>
                             </p>
                             <p>
                                 <label for="email"> Email</label>
-                                <input type="email" name="email" id="email">
+                                <input type="email" name="email" id="email" autocomplete="email">
+                                <span class="error-message" id="error-email"></span>
                             </p>
 
                             <p>
                                 <label for="telefono">Telefono</label>
-                                <input type="tel" name="telefono" id="telefono">
+                                <input type="tel" name="telefono" id="telefono" autocomplete="tel">
+                                <span class="error-message" id="error-telefono"></span>
                             </p>
                             <p>
                                 <label>Provincia</label>
-                                <select  id="selectProvincias">
+                                <select id="selectProvincias">
                                     <option value="Elige una provincia"> Selecciona una provincia</option>
                                 </select>
+                                <span class="error-message" id="error-selectProvincias"></span>
                             </p>
                             <p class="block">
                                 <label for="consulta">Consulta</label>
@@ -193,6 +189,7 @@
                             <p class="check">
                                 <label for="check">No soy un robot</label>
                                 <input type="checkbox" name="check" id="check">
+                                <span class="error-message" id="error-check"></span>
                             </p>
                             <p class="block">
                                 <button type="submit">
@@ -203,10 +200,10 @@
 
                     </div>
                     <div class="contact-img">
-                        <h6> Contactanos y te respondemos a la brevedad</h6>
-                        <h6>Aqui agregar numero de telefono de la fabrica</h6>
+                        <h4> Contactanos y te respondemos a la brevedad</h4>
+<!--                         <h4>Aqui agregar numero de telefono de la fabrica</h4> -->
                         <a>
-                            <img src="./img/Logo_Nono.png" alt="logo empresa">
+                            <img src="./img/logo empresa.png" alt="logo empresa">
                         </a>
 
                     </div>
@@ -216,19 +213,19 @@
         </section>
     </main>
     <footer id="pie-pagina">
-       <div class="grupo-1">
+        <div class="grupo-1">
             <div class="box">
                 <figure>
                     <a>
-                        <img src="./img/Logo_Nono2.png" alt="logo empresa">
+                        <img src="./img/Logo Nono.png" alt="logo empresa">
                     </a>
                 </figure>
             </div>
             <div class="box">
-                <h2> agregar algun texto de sucursales,telefonos o informacion util</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi reiciendis minima provident recusandae
-                    ea, repellendus modi quod cum repellat possimus, soluta consectetur tempora voluptates id facilis
-                    veritatis nihil, laboriosam pariatur.</p>
+                <h2>Centro de Atencion al Cliente</h2>
+                <p>Teléfono: +54 0385 15693002</p>
+                <p>Email: info@ilnonoluigi.com</p>
+                <p>Horario: Lunes a Domingo, 9hs - 17hs</p>
             </div>
             <div class="box">
                 <h2>Seguinos en nuestras redes</h2>
@@ -245,8 +242,10 @@
         </div>
 
     </footer>
+    <script src="./js/productos.js"></script>
     <script src="./js/formulario.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/form-validacion.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

@@ -1,104 +1,105 @@
 [
     {
-        "id":"1",
-        "Variedad":"moñitos",
-        "precio por kg":"$2400"
+        "id": 1,
+        "variedad":"moñitos",
+        "precio": 2400,
+        "imagen": "./img/Producto1"
     },
     {
-        "id":"2",
+        "id": 2 ,
         "variedad":"rigatti",
-        "Precio por kg":"$2400"
+        "precio": 2400
 
     },
     {
-        "id":"3",
-        "Variedad":"fusciles",
-        "precio por kg":"$2500"
+        "id": 3 ,
+        "variedad":"fusciles",
+        "precio": 2500
     },
     {
-        "id":"4",
-        "Variedad":"ñoquis de papa",
-        "precio por kg":"$2400"
+        "id": 4 ,
+        "variedad":"ñoquis de papa",
+        "precio": 2400
     },
     {
-        "id":"5",
-        "Variedad":"ñoquis de espinaca",
-        "precio por kg":"$2500"
+        "id": 5 ,
+        "variedad":"ñoquis de espinaca",
+        "precio": 2500 
     },
     {
-        "id":"6",
-        "Variedad":"ñoquis de calabaza",
-        "precio por kg":"$2500"
+        "id": 6 ,
+        "variedad":"ñoquis de calabaza",
+        "precio": 2500
     },
     {
-        "id":"7",
-        "Variedad":"ñoquis tricolor",
-        "precio por kg":"$2500"
+        "id": 7 ,
+        "variedad":"ñoquis tricolor",
+        "precio": 2500
     },
     {
-        "id":"8",
-        "Variedad":"tallarines al huevo",
-        "precio por kg":"$2500"
+        "id": 8 ,
+        "variedad":"tallarines al huevo",
+        "precio": 2500
     },
     {
-        "id":"9",
-        "Variedad":"tallarines de espinaca",
-        "precio por kg":"$2600"
+        "id": 9 ,
+        "variedad":"tallarines de espinaca",
+        "precio": 2600
     },
     {
-        "id":"10",
-        "Variedad":"tallarines al morrón",
-        "precio por kg":"$2600"
+        "id": 10 ,
+        "variedad":"tallarines al morrón",
+        "precio": 2600 
     },
     {
-        "id":"11",
-        "Variedad":"ravioles de calabaza y muzzarella",
-        "precio por kg":"$3000"
+        "id": 11 ,
+        "variedad":"ravioles de calabaza y muzzarella",
+        "precio": 3000 
     },
     {
-        "id":"12",
-        "Variedad":"ravioles de jamon y queso",
-        "precio por kg":"$3000"
+        "id": 12 ,
+        "variedad":"ravioles de jamon y queso",
+        "precio": 3000
     },
     {
-        "id":"13",
-        "Variedad":"ravioles de verdura y carne",
-        "precio por kg":"$3000"
+        "id": 13 ,
+        "variedad":"ravioles de verdura y carne",
+        "precio": 3000
     },
     {
-        "id":"14",
-        "Variedad":"ravioles 4 quesos",
-        "precio por kg":"$3000"
+        "id": 14 ,
+        "variedad":"ravioles 4 quesos",
+        "precio": 3000
     },
     {
-        "id":"15",
-        "Variedad":"sorrentinos jamon y queso ",
-        "precio por kg":"$4500"
+        "id": 15 ,
+        "variedad":"sorrentinos ricota y nuez",
+        "precio": 4500 
     },
     {
-        "id":"16",
-        "Variedad":"sorrentinos calabaza y queso ",
-        "precio por kg":"$4500"
+        "id": 16 ,
+        "variedad":"sorrentinos capresse",
+        "precio": 4500
     },
     {
-        "id":"17",
-        "Variedad":"sorrentinos ricota y nuez ",
-        "precio por kg":"$4500"
+        "id": 17 ,
+        "variedad":"torteloni de jamon y queso",
+        "precio": 5000
     },
     {
-        "id":"18",
-        "Variedad":"sorrentinos capresse ",
-        "precio por kg":"$4500"
+        "id": 18 ,
+        "variedad":"torteloni de verdura y pollo",
+        "precio": 5000
     },
     {
-        "id":"19",
-        "Variedad":"torteloni de jamon y queso ",
-        "precio por kg":"$5000"
+        "id": 19 ,
+        "variedad":"Tapas para lasagna",
+        "precio": 2000
     },
     {
-        "id":"20",
-        "Variedad":"torteloni de verdura y pollo ",
-        "precio por kg":"$5000"
+        "id": 20 ,
+        "variedad":"Tapas de empanadas",
+        "precio": 2000
     }
     
 ]
