@@ -2,6 +2,7 @@
 document.getElementById('formulario').addEventListener('submit', function(event) {
     event.preventDefault(); //Con esto evitamos el envío del formulario hasta que se valide
     if (validarFormulario()) {
+        mostrarDatosEnTabla();
         alert("Su formulario ha sido enviado correctamente.");
         this.submit();
     }
@@ -83,4 +84,30 @@ function validarFormulario() {
     }
 
     return esValido;
+}
+
+
+//mostrar datos
+
+function mostrarDatosEnTabla() {
+    const nombreCompleto = document.getElementById('nombreCompleto').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const telefono = document.getElementById('telefono').value.trim();
+    const provincia = document.getElementById('selectProvincias').value;
+    const mensaje = document.getElementById('mensaje').value.trim();
+
+    const tabla = document.getElementById('data-table').getElementsByTagName('tbody')[0];
+    const nuevaFila = tabla.insertRow();
+
+    const celdaNombre = nuevaFila.insertCell(0);
+    const celdaEmail = nuevaFila.insertCell(1);
+    const celdaTelefono = nuevaFila.insertCell(2);
+    const celdaProvincia = nuevaFila.insertCell(3);
+    const celdaMensaje = nuevaFila.insertCell(4);
+
+    celdaNombre.textContent = nombreCompleto;
+    celdaEmail.textContent = email;
+    celdaTelefono.textContent = telefono;
+    celdaProvincia.textContent = provincia;
+    celdaMensaje.textContent = mensaje;
 }
