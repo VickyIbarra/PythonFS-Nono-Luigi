@@ -127,14 +127,24 @@ body {
     background-size: auto;
 }
 
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-top: 50px;
+    
+}
+
 
 .tarjeta {
-    width: 200px;
+    height: auto;
+    width: 250px;
     border: 1px solid green;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0 4px 8 px rgba(0,0,0,0.5);
-    margin-top: 80px;
+    margin: 30px;
 /*     background-color: white; */
     }
 

@@ -146,12 +146,7 @@ main>div>h1 {
 .image-container {
 
     display: flex;
-    /* transition: transform 5.8s linear; /*Elegi la que mas te guste Peter🙌😊*/
     transition: transform 0.8s ease-in-out;
-    /*Elegi la que mas te guste Peter🙌😊*/
-    /*     animation: slideAnimation 1s ease infinite; 
-    Elegi la que mas te guste Peter🙌😊
- */
 }
 
 .imgCarusel {
@@ -167,14 +162,6 @@ body {
     background-size: auto;
 }
 
-/*sobre nosotros*/
-
-/* #nosotros {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-} */
 
 #titulo1 {
     text-align:center;
@@ -182,16 +169,6 @@ body {
     font-size: 2.15em;
     margin-bottom: 35px;
 }
-
-/* .background1 {
-    position: absolute;
-    width: 70%;
-    height: 400px;
-    background-color: burlywood;
-    border-radius: 0px 50px 0px 50px;
-    margin-top: 60px;
-    z-index: -1
-} */
 
 
 .luigi{
@@ -239,17 +216,6 @@ body {
 }
 
 
-/* .background2 {
-    position:relative;
-    width: 70%;
-    height: 400px;
-    background-color: burlywood;
-    border-radius: 0px 50px 0px 50px;
-    margin-top: 60px;
-    margin-left: 100px;
-
-}
- */
 .fabrica img {
     height: auto;
     width: 600px;
@@ -294,16 +260,6 @@ body {
     z-index: -1
 }
 
-/* .background3 {
-    position: absolute;
-    width: 70%;
-    height: 350px;
-    background-color: burlywood;
-    border-radius: 30px 30px 30px 30px;
-    margin-top: 70px;
-    margin-left: 100px;
-
-} */
 
 .texto3 {
     background-color: rgb(148, 125, 108);
