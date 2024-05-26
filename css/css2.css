@@ -131,15 +131,16 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: space-around;
     margin-top: 50px;
-    
 }
 
 
 .tarjeta {
-    height: auto;
-    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 350px;
     border: 1px solid green;
     border-radius: 10px;
     padding: 10px;
@@ -147,6 +148,17 @@ body {
     margin: 30px;
 /*     background-color: white; */
     }
+
+.tarjeta p{
+    margin: 5px;
+}
+
+.tarjeta img{
+    margin: 5px;
+    border-radius: 5px;
+    height: 250px;
+    width: 300px;
+}
 
     
 /*footer*/
