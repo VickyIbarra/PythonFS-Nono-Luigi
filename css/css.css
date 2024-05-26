@@ -72,7 +72,7 @@ body header div a:hover {
 }
 
 .logoLetra {
-    color: rgb(0, 255, 255);
+    color:rgb(37, 211, 102) ;
     font-size: 17px;
     font-weight: bold;
 }
@@ -114,7 +114,7 @@ body header div a:hover {
 
 .navBar a.current,
 .navBar a:hover {
-    color: rgb(0, 255, 255);
+    color: rgb(37, 211, 102);
     font-weight: bold;
 }
 
@@ -468,7 +468,7 @@ body {
 
 #pie-pagina .grupo-1 .box p {
     color: #efefef;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #pie-pagina .grupo-1 .red-social a {
@@ -485,7 +485,7 @@ body {
 }
 
 #pie-pagina .grupo-1 .red-social a:hover {
-    color: rgb(0, 255, 255);
+    color:rgb(37, 211, 102) ;
 }
 
 .pie-pagina .grupo-2 {
