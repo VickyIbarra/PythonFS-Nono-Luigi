@@ -14,6 +14,7 @@ color-scheme: dark light;
 }
 
 .tipografia {
+    color:#efefef;
     font-family: "Almendra", serif;
     font-weight: 700;
     font-style: normal;
@@ -72,7 +73,7 @@ body header div a:hover {
 }
 
 .logoLetra {
-    color: rgb(37, 211, 102);
+    color: whitesmoke;
     font-size: 17px;
     font-weight: bold;
 }
@@ -114,7 +115,7 @@ body header div a:hover {
 
 .navBar a.current,
 .navBar a:hover {
-    color: rgb(37, 211, 102);
+    color: rgb(93, 182, 15);
     font-weight: bold;
 }
 
@@ -147,8 +148,13 @@ body {
     padding: 10px;
     box-shadow: 0 4px 8 px rgba(0,0,0,0.5);
     margin: 30px;
-/*     background-color: white; */
-    }
+    background-color: white;
+    transition: transform 0.3s ease; /* Añadido para animar la transformación */
+}
+
+.tarjeta:hover {
+    transform: scale(1.1); /* Agranda la tarjeta al pasar el mouse */
+}
 
 .tarjeta p{
     margin: 5px;
@@ -226,7 +232,7 @@ body {
 }
 
 #pie-pagina .grupo-1 .red-social a:hover {
-    color: rgb(0, 255, 255);
+    color: rgb(93, 182, 15);
 }
 
 .pie-pagina .grupo-2 {
@@ -237,7 +243,10 @@ body {
 }
 
 #pie-pagina .grupo-2 small {
+    color: whitesmoke;
     font-size: 15px;
+    padding: 15px 10px;
+    text-align: center;
 }
 
 @media screen and (max-width:800px) {

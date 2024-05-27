@@ -72,7 +72,7 @@ body header div a:hover {
 }
 
 .logoLetra {
-    color:rgb(37, 211, 102) ;
+    color:whitesmoke;
     font-size: 17px;
     font-weight: bold;
 }
@@ -114,7 +114,7 @@ body header div a:hover {
 
 .navBar a.current,
 .navBar a:hover {
-    color: rgb(37, 211, 102);
+    color: rgb(93, 182, 15);
     font-weight: bold;
 }
 
@@ -156,6 +156,7 @@ main>div>h1 {
 }
 
 body {
+    color:whitesmoke;
     background-color: #212529;
     background-image: url("../img/background.jpg");
     background-repeat: repeat;
@@ -283,6 +284,7 @@ body {
     padding: 100px 0 100px 0;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 #sucursales h3 {
@@ -485,7 +487,7 @@ body {
 }
 
 #pie-pagina .grupo-1 .red-social a:hover {
-    color:rgb(37, 211, 102) ;
+    color: rgb(93, 182, 15);
 }
 
 .pie-pagina .grupo-2 {
