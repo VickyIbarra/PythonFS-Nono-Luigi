@@ -168,7 +168,7 @@ body {
     text-align:center;
     margin-top: 50px;
     font-size: 2.15em;
-    margin-bottom: 35px;
+    margin-bottom: 55px;
 }
 
 
@@ -200,15 +200,18 @@ body {
 
 .texto1 p {
     text-align: justify;
+    margin-top: 40px;
+    font-family: "Almendra";
+    
 }
 
 
 
 #titulo2 {
     text-align:center;
-    margin-top: 50px;
+    margin-top: 100px;
     font-size: 2.15em;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 
 .fabrica{
@@ -233,12 +236,13 @@ body {
     padding: 20px 20px 20px 20px;
     position: relative;
     margin-left: 50px;
-    margin-top: 160px;
+    margin-top: 100px;
     z-index: 1
 }
 
 .texto2 p {
     text-align: justify;
+    font-family: "Almendra";
 }
 
 #titulo3 {
@@ -246,6 +250,7 @@ body {
     margin-top: 50px;
     font-size: 2.15em;
     margin-bottom: 30px;
+    margin-top: 100px;
 }
 
 .actualidad{
@@ -254,10 +259,10 @@ body {
 }
 
 .actualidad img {
-    height: 250px;
-    width: 350px;
-    padding-left: 80px;
-    margin-left: 20px;
+    height: 200px;
+    width: 300px;
+    padding-left: 5px;
+    margin-left: 5px;
     z-index: -1
 }
 
@@ -266,16 +271,18 @@ body {
     background-color: rgb(148, 125, 108);
     width: 100%;
     height: 50px;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 10px 20px 10px;
     position: relative;
-    margin-left: 50px;
-    margin-top: 160px;
+    margin-left: 5px;
+    margin-top: 30px;
     z-index: 1
 }
 
 .texto3 p {
     text-align: justify;
+    font-family: "Almendra";
 }
+
 
 
 
@@ -283,14 +290,16 @@ body {
 .mapas {
     padding: 100px 0 100px 0;
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content:space-evenly;
+    gap: 70px;
+    flex-wrap: wrap;
 }
 
 #sucursales h3 {
     text-align: center;
     font-size: 40px;
     margin-top: 100px;
+
 }
 
 .sucursal1 .sucursal2 .sucursal3 .sucursal4{
