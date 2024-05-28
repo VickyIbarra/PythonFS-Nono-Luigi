@@ -15,7 +15,6 @@ color-scheme: dark light;
 
 .tipografia {
     color:#efefef;
-    font-family: "Almendra", serif;
     font-weight: 700;
     font-style: normal;
 }
@@ -187,6 +186,21 @@ body {
     margin-top: 55px;
     margin-bottom: 10px;
   }
+
+  .btn{
+    color:#ffffff;
+    display:inline-block;
+    padding:15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:rgb(109, 116, 86);
+    margin-bottom: 20px;
+    }
+   .btn:hover{
+    color: rgb(93, 182, 15);
+    font-weight: bold;
+   } 
   
   #info-table {
     width: 100%;
@@ -278,6 +292,9 @@ body {
 
 #pie-pagina .grupo-1 .red-social a:hover {
     color: rgb(93, 182, 15);
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
 }
 
 .pie-pagina .grupo-2 {
@@ -305,18 +322,3 @@ body {
     }
 
 }
-.btn{
-    color:#ffffff;
-    display:inline-block;
-    padding:15px;
-    text-decoration: none;
-    font-size: 20px;
-    background-color:rgb(109, 116, 86);
-    margin-bottom: 20px;
-    }
-   .btn:hover{
-    background: white;
-    color: black;
-    transition: background-color 1s ease-out;
-    outline: 0;
-   } 
