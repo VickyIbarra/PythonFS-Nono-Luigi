@@ -10,7 +10,7 @@
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link rel="stylesheet" href="./css/css.css">
+  <link rel="stylesheet" href="./css/css2.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap"
@@ -38,22 +38,15 @@
     </nav>
   </header>
   <main>
-
-    <div class="col-6 col-s-9">
-      <div align=center>
-        <p align=center>&nbsp;</p>
-        <h1 align=center>
-          <font size="+1">Informacion obtenida:</font>
-        </h1>
-
+      <div class="content-center">
+        <h1>Información obtenida del formulario:</h1>
         <div>
-          <table border="1" align=center width="226">
+          <table id="info-table">
             <tr>
-              <th align="center">Form Field</th>
-              <th align="center">Field Value</th>
+              <th>Form Field</th>
+              <th>Field Value</th>
             </tr>
-
-
+  
             <script language="javascript">
               var args = location.search.substr(1).split('&');
               for (var i = 0; i < args.length; ++i) {
@@ -67,14 +60,18 @@
                   else {
                     value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
                   }
-
-                  document.writeln('<tr><td align="center">' + field + '</td>');
-                  document.writeln('<td align="center">' + value + '</td></tr>');
+  
+                  document.writeln('<tr><td>' + field + '</td>');
+                  document.writeln('<td>' + value + '</td></tr>');
                 }
               }
             </script>
-
-            <script src="./js/form-validacion.js"></script>
+          </table>
+  
+          <script src="./js/form-validacion.js"></script>
+        </div>
+      </div>
+    </div>
   </main>
   <footer id="pie-pagina">
               <div class="grupo-1">
