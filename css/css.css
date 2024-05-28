@@ -423,6 +423,9 @@ body {
     color: white;
     font-size: 1.75em;
 }
+.error-message{
+    color:red;
+}
 
 /*footer*/
 #pie-pagina {
@@ -513,3 +516,4 @@ body {
 
     }
 }
+
