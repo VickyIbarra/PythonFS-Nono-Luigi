@@ -221,7 +221,7 @@ body {
 
 .fabrica{
     display: flex;
-    align-self:center;
+    align-self: flex-start;
 }
 
 
@@ -262,6 +262,8 @@ body {
 .actualidad{
     display: flex;
     align-self: flex-start;
+    justify-content:space-around;
+
 }
 
 .actualidad img {
@@ -304,7 +306,7 @@ body {
 
 .mapas div {
     margin-bottom: 20px;
-   flex: 0 0 45%;
+    flex: 50% 50% 50%;
 }
     #sucursales h3 {
     text-align: center;
