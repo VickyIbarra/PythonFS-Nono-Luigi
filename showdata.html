@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -8,8 +8,8 @@
   <link rel="shortcut icon" href="./img/favicon_empresa.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="./css/css2.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,35 +22,32 @@
     <nav class="navBar">
       <div class="animate__animated animate__backInLeft container">
         <a href="./index.html">
-          <img class="animate__animated animate__wobble logo" src="./img/logo empresa.png" alt="logo empresa">
+          <img class="animate__animated animate__wobble logo" src="./img/logo_empresa.png" alt="logo empresa">
         </a>
         <p class="logoLetra"> Il Nono Luigi</p>
       </div>
       <div class="tipografia">
-        <ul>
           <a href="#home">Home</a>
           <a href="#nosotros">Sobre nosotros</a>
           <a href="./productos.html">Productos</a>
           <a href="#sucursales">Sucursales</a>
           <a href="#contacto">Contacto</a>
-        </ul>
       </div>
     </nav>
   </header>
   <main>
-   
       <div class="content-center">
         <h1>Información obtenida del formulario:</h1>
+        <div class="volver">
+          <a href="index.html" class="btn">Volver</a>
+        </div>
         <div>
           <table id="info-table">
             <tr>
               <th>Campos</th>
               <th>Valores ingresados</th>
             </tr>
-            <div class="volver">
-              <a href="index.html" class="btn">Volver</a>
-            </div>
-            <script language="javascript">
+            <script>
               var args = location.search.substr(1).split('&');
               for (var i = 0; i < args.length; ++i) {
                 var parts = args[i].split('=');
@@ -76,14 +73,13 @@
           <script src="./js/form-validacion.js"></script>
         </div>
       </div>
-    </div>
   </main>
   <footer id="pie-pagina">
               <div class="grupo-1">
                 <div class="box">
                   <figure>
                     <a>
-                      <img src="./img/Logo Nono.png" alt="logo empresa">
+                      <img src="./img/Logo_Nono.png" alt="logo empresa">
                     </a>
                   </figure>
                 </div>
@@ -104,7 +100,7 @@
 
               <div class="grupo-2">
                 <small> @ copyright 2024.<b>4IdeasDev</b> - Todos los derechos reservados.CaC - Fullstack Python 2004 -
-                  Proyecto Grupal 1 - Grupo 16</p></small>
+                  Proyecto Grupal 1 - Grupo 16</small>
               </div>
 
   </footer>
