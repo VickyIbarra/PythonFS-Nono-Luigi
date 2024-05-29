@@ -41,7 +41,7 @@
         <div id="app" class="contenedor">
             <div v-for="elemento in datos" class="tarjeta">
                 <p>Producto: {{elemento.variedad}}</p>
-                <p>Precio por unidad: $ {{elemento.precio}}</p>
+                <p>Precio por kilo: $ {{elemento.precio}}</p>
                 <img width="150" v-bind:src="elemento.imagen" :alt="elemento.title">
             </div>
         </div>

@@ -3,13 +3,13 @@
         "id": 1,
         "variedad":"moñitos",
         "precio": 2400,
-        "imagen": "./img/Producto1.PNG"
+        "imagen": "./img/monitos.jpg"
     },
     {
         "id": 2 ,
         "variedad":"rigatti",
         "precio": 2400,
-        "imagen": "./img/Producto2.PNG"
+        "imagen": "./img/rigatti.jpeg"
 
     },
     {
