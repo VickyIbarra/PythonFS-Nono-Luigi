@@ -175,11 +175,10 @@ body {
 
 .luigi, .fabrica,.actualidad{
     display: flex;
-    align-self: flex-start;
     flex-wrap: wrap;/**/
     align-items: center;/**/
     padding:0px;
-
+    justify-content:space-around;
 }
 
 
@@ -221,7 +220,8 @@ body {
 
 .fabrica{
     display: flex;
-    align-self: flex-start;
+    justify-content:space-around;
+    
 }
 
 
