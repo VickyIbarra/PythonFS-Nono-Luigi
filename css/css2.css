@@ -157,6 +157,7 @@ body {
 
 .tarjeta p{
     margin: 5px;
+    color:#ffffff;
 }
 
 .tarjeta img{
@@ -165,6 +166,7 @@ body {
     height: 250px;
     width: 300px;
 }
+
 
 /*  Para el showdata */
 body {
