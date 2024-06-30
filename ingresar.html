@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/css.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-form sign-up">
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido a Il nono Luigi</h2>
+                <p>Si ya tienes una cuenta por favor inicia sesion aqui</p>
+                <button class="sign-up-btn"> Iniciar sesion</button>
+            </div>
+        </div>
+        <form class="formulario" id="registro">
+            <h2 class="create-account">Crear una cuenta</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                   <h1>aqui poner logo </h1>
+                </div>
+                
+            </div>
+            <p class="create-account">Crear una cuenta</p>
+            <input type="text" id="nombre"   placeholder="Nombre" required>
+            <input type="email" id="email"  placeholder="Email" required> 
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <label for="adminCode">Código de administrador (opcional)</label>
+            <input type="password" id="adminCode" placeholder="Código de administrador">
+            <button type="submit">Registrarse</button>
+        </form>
+
+    </div>
+    <div class="container-form sign-in">
+        <form class="formulario" id="iniciarSesion"action="/tu_ruta_de_procesamiento" method="POST" >
+            <h2 class="create-account">Iniciar sesion</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                   <h1>aqui poner logo </h1>
+                </div>
+                
+            </div>
+            <p class="crear-cuenta">Aun no tienes una cuenta?</p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required> 
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" required>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+        
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido de nuevo</h2>
+                <p>Si aun no tienes una cuenta por favor registrese aqui</p>
+                <button class="sign-in-btn"> Registrarse</button>
+            </div>
+        </div>
+       
+    </div>
+
+<script src="./js/ingresar.js"></script>
+</body>
+</html>

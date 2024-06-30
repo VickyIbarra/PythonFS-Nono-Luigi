@@ -553,4 +553,136 @@ body {
 
     }
 }
+/*para formulario reggistro-login*/
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    /*background-image: poner imagen;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:aliceblue;
+}
 
+.container-form{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    transition: all .5s ease-out;
+
+}
+.welcome-back{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.message{
+    padding: 90px 0px 50px 0px;
+}
+
+.message h2{
+    font-size: 30px;
+    padding: 60px 10px 30px 10px;
+}
+.message button{
+    padding: 1rem;
+    font-weight: 10px;
+    background-color: burlywood;
+    border-radius: 2rem;
+    border: none;
+    outline:none;
+    cursor:pointer;
+    font-size: 15px;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: aliceblue;
+}
+
+.message button:hover{
+    background-color: rgb(95, 94, 94);
+}
+
+.formulario{
+    width: 400px;
+    padding: 1rem;
+    margin:2rem;
+    background-color: rgba(36, 33, 39, 0.5); ;
+    text-align: center;
+}
+.create-account{
+    padding: 2.7rem 0;
+    font-size: 1.7rem;
+}
+
+.iconos{
+  width: 200px;
+  display: flex;  
+  justify-content: space-around;
+  margin: auto;
+}
+
+.border-icon{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    
+}
+
+
+.crear-cuenta{
+    padding: 2rem 0;
+   
+}
+
+.formulario input{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom:10px;
+    margin-top: 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: white thin solid;
+    text-align: center;
+    outline: none;
+    padding: .2rem 0;
+    font-size: .9rem;
+    color: white;
+}
+
+.formulario button[type="submit"]{
+    width: 60%;
+    margin: auto;
+    border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 0px;
+    font-size: .8rem;
+    cursor: pointer;
+    color:rgb(37, 37, 37)
+}
+/*aqui hacemos el juego entre los 2 formularios*/
+.sign-in {
+    position:absolute;
+    opacity:0;
+    visibility:hidden;
+}
+
+.sign-in.active {
+    opacity:1;
+    visibility:visible;
+}
+
+.sign-up.active {
+    opacity:0;
+    visibility:hidden;
+}
