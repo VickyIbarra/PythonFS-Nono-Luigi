@@ -41,9 +41,11 @@
             <div v-for="elemento in datos" class="tarjeta">
                 <p>{{elemento.variedad}}</p>
                 <p>Precio por kilo: $ {{elemento.precio}}</p>
+                <button>Agregar al carrito</button>
                 <img width="150" v-bind:src="elemento.imagen" :alt="elemento.title">
             </div>
         </div>
+        
     </main>
     <footer id="pie-pagina">
         <div class="grupo-1">
@@ -79,6 +81,7 @@
     <script src="./js/productos.js"></script>
     <script src="./js/formulario.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/carrito.js"></script>
 </body>
 
 </html>

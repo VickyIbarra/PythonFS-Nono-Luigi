@@ -121,7 +121,23 @@ body header div a:hover {
     font-weight: bold;
 }
 
-
+#cuenta-carrito{
+    background-color:red;
+    border-radius:100%;
+    display:inline-block;
+    width:20px;
+    line-height: 20px;
+    aspect-ratio: 1;
+    text-align: center;
+    
+}
+button{
+    background-color:rgb(148, 125, 108);
+    padding: 5px 10px; 
+    border: unset;
+    border-radius: 5px;
+    cursor:pointer;
+}
 
 body {
     background-color: #212529;

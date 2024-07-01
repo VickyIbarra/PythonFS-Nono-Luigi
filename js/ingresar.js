@@ -50,8 +50,8 @@ const iniciarSesion = document.querySelector('#iniciarSesion')
     
     alert(`Bienvenid@ ${validUser.nombre}`)
     if (validUser.isAdmin) {
-        window.location.href = 'productos.html'
+        window.location.href = 'producto.html'
       } else {
-        window.location.href = 'index.html'
+        window.location.href = 'carrito.html'
       }
  })

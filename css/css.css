@@ -124,6 +124,16 @@ main>div>h1 {
     display: flex;
     justify-content: center
 }
+#cuenta-carrito{
+    background-color:red;
+    border-radius:100%;
+    display:inline-block;
+    width:20px;
+    line-height: 20px;
+    aspect-ratio: 1;
+    text-align: center;
+    
+}
 
 /* Implementamos estilos al carusel */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
@@ -554,18 +564,6 @@ body {
     }
 }
 /*para formulario reggistro-login*/
-/*body{
-    height:100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    /*background-image: poner imagen;*/
-    /*background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color:aliceblue;
-}*/
 
 
 .container-form{
@@ -619,15 +617,17 @@ body {
     font-size: 1.7rem;
 }
 
-.iconos{
-  width: 200px;
+.iconos img{
+  width: 120px;
   display: flex;  
   justify-content: space-around;
-  margin: auto;
+  margin:10px 30px 10px 350px;
+  
+  
 }
 
 .border-icon{
-    height: 20px;
+    height: 50px;
     width: 20px;
     display: flex;
     align-items: center;
