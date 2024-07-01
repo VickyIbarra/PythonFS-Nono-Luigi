@@ -684,6 +684,7 @@ body {
 }
 
 .sign-up.active {
+    position: absolute;
     opacity:0;
     visibility:hidden;
 }
