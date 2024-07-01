@@ -554,18 +554,19 @@ body {
     }
 }
 /*para formulario reggistro-login*/
-body{
+/*body{
     height:100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: black;
     /*background-image: poner imagen;*/
-    background-position: center;
+    /*background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color:aliceblue;
-}
+}*/
+
 
 .container-form{
     width: 90%;
