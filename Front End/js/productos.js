@@ -5,7 +5,7 @@ const { createApp, ref } = Vue;
 createApp({
   data() {
     return {
-      url: "/js/productos.json",
+      url: "./js/productos.json",
       datos: [],
       error: false,
     }

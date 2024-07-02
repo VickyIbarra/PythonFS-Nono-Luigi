@@ -55,6 +55,7 @@ body header div a:hover {
     align-items: center;
     text-decoration: none;
     position: fixed;
+    width:100% ;/*agregado recien*/
     margin-bottom: 35px;
     background-color: rgb(109, 116, 86);
     ;
@@ -131,6 +132,7 @@ body header div a:hover {
     text-align: center;
     
 }
+
 button{
     background-color:rgb(148, 125, 108);
     padding: 5px 10px; 
