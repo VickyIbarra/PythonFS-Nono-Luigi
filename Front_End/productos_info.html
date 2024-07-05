@@ -42,7 +42,7 @@
         <div id="app" class="container">
             <h1>Productos</h1>
             <br>
-            <a class="btn btn-primary" href="producto_nuevo.html">Nuevo</a>
+            <a class="btn btn-primary" href="productos_info_nuevo.html">Nuevo</a>
             <br><br>
             <div v-if="error">
                 <p>Lo sentimos, hubo un error al cargar los datos.</p>
@@ -75,7 +75,7 @@
                                     <td><svg id="barcode"></svg></td>
                                     <td><img width="60" :src="producto.imagen" :alt="producto.nombre"></td>
                                     <td>
-                                        <a class="btn btn-primary" :href="'producto_update.html?id='+ producto.id">Editar</a>
+                                        <a class="btn btn-primary" :href="'productos_info_editar.html?id='+ producto.id">Editar</a>
                                         <button type="button" class="btn btn-danger" @click="eliminar(producto.id)">Eliminar</button>
                                     </td>
                                 </tr>
