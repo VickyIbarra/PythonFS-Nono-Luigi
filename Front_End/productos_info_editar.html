@@ -40,35 +40,38 @@
     </header>
       <main>
         <div class="container" id="app">
-          <form style="margin:10px auto ; width: 400px; padding: 20px;">
-          <h2>Editar Producto </h2>
-               <div class="mb-3">
-            <label for="id">Id</label>
-            <input type="number" name="id" id="id" disabled v-model="id" >
-          </div>
-          <div class="mb-3">
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" v-model="nombre">
-          </div>
-          <div class="mb-3">
-            <label for="precio">Precio</label>
-            <input type="number" name="precio" id="precio" v-model="precio">
-          </div>
-          <div class="mb-3">
-            <label for="stock">Stock</label>
-            <input type="number" name="stock" id="stock" v-model="stock">
-          </div>
-          <div class="mb-3">
-            <label for="stock">Codigo de Barras</label>
-            <input type="text" name="codigo" id="codigo" v-model="codigo">
-          </div>
-          <div class="mb-3">
-            <label for="imagen">Imagen</label>
-            <input type="text" name="imagen" id="imagen" v-model="imagen">  
-            <img width="100"   :src="imagen" alt="">
-          </div>
-          <button type="button" class="btn btn-success" v-on:click="modificar()">Grabar</button>
-          </form>
+          <h1>Editar Producto</h1>
+          <table class="editar-productos">
+            <tr>
+              <td><label for="id">Id</label></td>
+              <td><input type="number" name="id" id="id" disabled v-model="id"></td>
+            </tr>
+            <tr>
+              <td><label for="nombre">Nombre</label></td>
+              <td><input type="text" name="nombre" id="nombre" v-model="nombre"></td>
+            </tr>
+            <tr>
+              <td><label for="precio">Precio</label></td>
+              <td><input type="number" name="precio" id="precio" v-model="precio"></td>
+            </tr>
+            <tr>
+              <td><label for="stock">Stock</label></td>
+              <td><input type="number" name="stock" id="stock" v-model="stock"></td>
+            </tr>
+            <tr>
+              <td><label for="codigo">Código de Barras</label></td>
+              <td><input type="text" name="codigo" id="codigo" v-model="codigo"></td>
+            </tr>
+            <tr>
+              <td><label for="imagen">Imagen</label></td>
+              <td>
+                <input type="text" name="imagen" id="imagen" v-model="imagen">
+                <img width="100" :src="imagen" alt="">
+              </td>
+            </tr>
+          </table>
+          <button type="button" class="btn btn-success" style="margin: 10px auto; display: block;" v-on:click="modificar()">Grabar</button>
+          
         </div>
       </main>
       <footer id="pie-pagina">

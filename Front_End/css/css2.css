@@ -209,21 +209,181 @@ body {
     margin-bottom: 10px;
   }
 
-  .btn{
-    color:#ffffff;
-    display:inline-block;
-    padding:15px;
+
+
+.tabla-productos {
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    border: 3px solid rgb(148, 125, 108); /* Borde de la tabla */
+    border-collapse: collapse; /* Colapso del borde */
+}
+
+.tabla-productos th,
+.tabla-productos td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center; /* Alinea el texto en las celdas al centro */
+}
+
+.tabla-productos th {
+    /*background-color: #f2f2f2; /* Color de fondo para las cabeceras */
+}
+
+.tabla-productos td img {
+    display: block;
+    margin: 0 auto; /* Centra las imágenes dentro de las celdas */
+}
+
+/* Estilos para los botones */
+.btn {
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el padding según sea necesario */
     text-decoration: none;
     border-radius: 5px;
-    font-size: 20px;
-    background-color:rgb(109, 116, 86);
-    margin-bottom: 20px;
-    }
-   .btn:hover{
-    color: rgb(93, 182, 15);
-    font-weight: bold;
-   } 
+    font-size: 16px; /* Tamaño de fuente */
+    background-color: rgb(109, 116, 86);
+    margin-bottom: 10px; /* Espacio inferior entre botones */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.btn:hover {
+    background-color: rgb(93, 182, 15); /* Cambio de color al pasar el mouse */
+}
+
+.btn-primary {
+    background-color: rgb(109, 116, 86); /* Color de fondo principal */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: rgb(93, 182, 15); /* Cambio de color al pasar el mouse */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Color de fondo para botón de eliminar */
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Cambio de color al pasar el mouse */
+}
   
+.alta-productos {
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    border: 3px solid rgb(148, 125, 108); /* Borde de la tabla */
+    border-collapse: collapse; /* Colapso del borde */
+}
+
+.alta-productos th,
+.alta-productos td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center; /* Alinea el texto en las celdas al centro */
+}
+
+.alta-productos th {
+    /*background-color: #f2f2f2; /* Color de fondo para las cabeceras */
+}
+
+.alta-productos td img {
+    display: block;
+    margin: 0 auto; /* Centra las imágenes dentro de las celdas */
+}
+
+/* Estilos para los botones */
+.alta-productos .btn {
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el padding según sea necesario */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px; /* Tamaño de fuente */
+    background-color: rgb(109, 116, 86);
+    margin-bottom: 10px; /* Espacio inferior entre botones */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.alta-productos .btn:hover {
+    background-color: rgb(93, 182, 15); /* Cambio de color al pasar el mouse */
+}
+
+.alta-productos .btn-primary {
+    background-color: rgb(109, 116, 86); /* Color de fondo principal */
+    border: none;
+}
+
+.alta-productos .btn-primary:hover {
+    background-color: rgb(93, 182, 15); /* Cambio de color al pasar el mouse */
+}
+
+.alta-productos .btn-danger {
+    background-color: #dc3545; /* Color de fondo para botón de eliminar */
+    border: none;
+}
+
+.alta-productos .btn-danger:hover {
+    background-color: #c82333; /* Cambio de color al pasar el mouse */
+}
+  
+
+.editar-productos {
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    border: 3px solid rgb(148, 125, 108); /* Borde de la tabla */
+    border-collapse: collapse; /* Colapso del borde */
+}
+
+.editar-productos th,
+.editar-productos td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center; /* Alinea el texto en las celdas al centro */
+}
+
+.editar-productos th {
+    /*background-color: #f2f2f2; /* Color de fondo para las cabeceras */
+}
+
+.editar-productos td img {
+    display: block;
+    margin: 0 auto; /* Centra las imágenes dentro de las celdas */
+}
+
+/* Estilos para los botones */
+.editar-productos .btn {
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el padding según sea necesario */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px; /* Tamaño de fuente */
+    background-color: rgb(109, 116, 86);
+    margin-bottom: 10px; /* Espacio inferior entre botones */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.editar-productos .btn:hover {
+    background-color: rgb(93, 182, 15); /* Cambio de color al pasar el mouse */
+}
+
+.editar-productos .btn-primary {
+    background-color: rgb(109, 116, 86); /* Color de fondo principal */
+    border: none;
+}
+
+.editar-productos .btn-primary:hover {
+    background-color: rgb(93, 182, 15); /* Cambio de color al pasar el mouse */
+}
+
+.editar-productos .btn-danger {
+    background-color: #dc3545; /* Color de fondo para botón de eliminar */
+    border: none;
+}
+
+.editar-productos .btn-danger:hover {
+    background-color: #c82333; /* Cambio de color al pasar el mouse */
+}
+
+
   .info-table {
     width: 100%;
     max-width: 600px;
