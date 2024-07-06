@@ -44,6 +44,7 @@
                 <p>{{elemento.variedad}}</p>
                 <p>Precio por kilo: $ {{elemento.precio}}</p>
                 <img width="150" v-bind:src="elemento.imagen" :alt="elemento.title">
+                <button @click="agregarAlCarrito(elemento)">Agregar al carrito</button>
             </div>
         </div>
     </main>
@@ -81,6 +82,7 @@
     <script src="./js/productos.js"></script>
     <script src="./js/formulario.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/tarjetasParaCarrito.js"></script>
 </body>
 
 </html>
