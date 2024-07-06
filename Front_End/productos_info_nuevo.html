@@ -2,48 +2,104 @@
 <html lang="en">
 
 <head>
-  <title>Producto Nuevo</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Il Nono Luigi</title>
+  <link rel="shortcut icon" href="./img/favicon_empresa.png" type="image/x-icon">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="./css/css2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet">
 </head>
 
 <body>
-  <header id="header">
-    <!-- place navbar here -->
-  </header>
+  <header>
+    <nav class="navBar">
+        <div class="animate__animated animate__backInLeft container">
+            <a href="./index.html">
+                <img class="animate__animated animate__wobble logo" src="./img/logo_empresa.png"
+                    alt="logo empresa">
+            </a>
+           <p class="logoLetra"> Il Nono Luigi</p>
+        </div>
+        <div class="tipografia">
+                <a href="./index.html#home">Home</a>
+                <a href="./index.html#nosotros">Sobre nosotros</a>
+                <a href="./productos.html">Productos</a>
+                <a href="./index.html#sucursales">Sucursales</a>
+                <a href="./index.html#contacto">Contacto</a>
+        </div>
+    </nav>
+</header>
   <main>
-    <div class="container" id="app">
-      <form style="background-color: aliceblue;margin:10px auto ; width: 400px; padding: 20px;">
+    <div class="alta-contenedor">
+      <form>
         <h1>Alta de Producto</h1>
-        <div class="mb-3">
-          <label for="nombre">Nombre</label>
-          <input type="text" name="nombre" id="nombre" v-model="nombre">
-        </div>
-        <div class="mb-3">
-          <label for="precio">Precio</label>
-          <input type="number" name="precio" id="precio" v-model="precio">
-        </div>
-        <div class="mb-3">
-          <label for="stock">Stock</label>
-          <input type="number" name="stock" id="stock" v-model="stock">
-        </div>
-        <div class="mb-3">
-          <label for="imagen">Imagen</label>
-          <input type="text" name="imagen" id="imagen" v-model="imagen">
-          <img width="100" :src="imagen" alt="">
-        </div>
-        <button type="button" class="btn btn-success" v-on:click="grabar()">Grabar</button>
+        <table class="alta-productos">
+          <tr>
+            <td><label for="nombre">Nombre</label></td>
+            <td><input type="text" name="nombre" id="nombre" v-model="nombre"></td>
+          </tr>
+          <tr>
+            <td><label for="precio">Precio</label></td>
+            <td><input type="number" name="precio" id="precio" v-model="precio"></td>
+          </tr>
+          <tr>
+            <td><label for="stock">Stock</label></td>
+            <td><input type="number" name="stock" id="stock" v-model="stock"></td>
+          </tr>
+          <tr>
+            <td><label for="imagen">Imagen</label></td>
+            <td>
+              <input type="text" name="imagen" id="imagen" v-model="imagen">
+              <img width="100" :src="imagen" alt="">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button type="button" class="btn btn-success" v-on:click="grabar()">Grabar</button>
+            </td>
+          </tr>
+        </table>
       </form>
     </div>
   </main>
-  <footer>
-    <!-- place footer here -->
-  </footer>
-  <!-- Bootstrap JavaScript Libraries -->
+  <footer id="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a>
+                    <img src="./img/Logo_Nono.png" alt="logo empresa">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>Centro de Atencion al Cliente</h2>
+            <p>Teléfono: +54 0385 15693002</p>
+            <p>Email: info@ilnonoluigi.com</p>
+            <p>Horario: Lunes a Domingo, 9hs - 17hs</p>
+        </div>
+        <div class="box">
+            <h2>Seguinos en nuestras redes</h2>
+            <div class="red-social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="grupo-2">
+        <small> @ copyright 2024.<b>4IdeasDev</b> - Todos los derechos reservados.CaC - Fullstack Python 2004 -
+            Proyecto Grupal 1 - Grupo 16</small>
+    </div>
+
+</footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
     </script>
