@@ -16,7 +16,7 @@
                 <button class="sign-up-btn"> Iniciar sesion</button>
             </div>
         </div>
-        <form class="formulario" id="registro">
+        <form class="formulario" id="registro" method="POST">
             <h2 class="create-account">Crear una cuenta</h2>
             <div class="iconos">
                 <div class="border-icon">
@@ -28,14 +28,15 @@
             <input type="text" id="nombre"   placeholder="Nombre" required>
             <input type="email" id="email"  placeholder="Email" required> 
             <input type="password" id="password" placeholder="Contraseña" required>
-            <label for="adminCode">Código de administrador (opcional)</label>
-            <input type="password" id="adminCode" >
+            <label for="rol">Rol Usuario(opcional)</label>
+            <input type="text" name="rol" id="rol" >
+            <input type="hidden" name="form_type" value="registro">
             <button type="submit">Registrarse</button>
         </form>
 
     </div>
     <div class="container-form sign-in">
-        <form class="formulario" id="iniciarSesion"action="/tu_ruta_de_procesamiento" method="POST" >
+        <form class="formulario" id="iniciarSesion" method="POST" >
             <h2 class="create-account">Iniciar sesion</h2>
             <div class="iconos">
                 <div class="border-icon">
@@ -47,7 +48,8 @@
             <label for="email">Email</label>
             <input type="email" id="email" name="email" required> 
             <label for="password">Contraseña</label>
-            <input type="password" name="password" required>
+            <input type="password"id="password" name="password" required>
+            <input type="hidden" name="form_type" value="iniciarSesion">
             <button type="submit">Iniciar Sesión</button>
         </form>
         
