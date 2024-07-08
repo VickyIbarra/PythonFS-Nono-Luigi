@@ -42,26 +42,23 @@
   <main>
     <div class="container" id="app">
       <form>
-        <h1>Alta de Producto</h1>
-        <table class="alta-productos">
+        <h1>Alta de Usuario</h1>
+        <table class="alta-usuarios">
           <tr>
             <td><label for="nombre">Nombre</label></td>
             <td><input type="text" name="nombre" id="nombre" v-model="nombre"></td>
           </tr>
           <tr>
-            <td><label for="precio">Precio</label></td>
-            <td><input type="number" name="precio" id="precio" v-model="precio"></td>
+            <td><label for="email">Email</label></td>
+            <td><input type="text" name="email" id="email" v-model="email"></td>
           </tr>
           <tr>
-            <td><label for="stock">Stock</label></td>
-            <td><input type="number" name="stock" id="stock" v-model="stock"></td>
+            <td><label for="contraseña">Contraseña</label></td>
+            <td><input type="text" name="contraseña" id="contraseña" v-model="contraseña"></td>
           </tr>
           <tr>
-            <td><label for="imagen">Imagen</label></td>
-            <td>
-              <input type="text" name="imagen" id="imagen" v-model="imagen">
-              <img width="100" :src="imagen" alt="">
-            </td>
+            <td><label for="rol">Rol</label></td>
+            <td><input type="number" name="rol" id="rol" v-model="rol"></td>
           </tr>
           <tr>
             <td colspan="2">
@@ -110,8 +107,8 @@
     </script>
   <script src="./js/main.js"></script>
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-  <script src="./js/productos_info.js"></script>
-  <script src="./js/codigo_barras.js"></script>
+  <script src="./js/usuarios_info.js"></script>
+  <script src="./js/usuarios_editar.js"></script>
 </body>
 
 </html>

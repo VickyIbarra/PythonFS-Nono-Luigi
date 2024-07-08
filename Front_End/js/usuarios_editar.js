@@ -1,5 +1,5 @@
 console.log(location.search)     // lee los argumentos pasados a este formulario
-var id=location.search.substr(4)  // producto_update.html?id=1
+var id=location.search.substr(4)  
 console.log(id)
 const { createApp } = Vue
   createApp({
@@ -7,11 +7,10 @@ const { createApp } = Vue
       return {
         id:0,
         nombre:"",
-        imagen:"",
-        stock:0,
-        codigo:"",
-        precio:0,
-        url:'http://localhost:5000/productos_info/'+id,
+        email:"",
+        contraseña:"",
+        rol:0,
+        url:'http://localhost:5000/usuarios_info/'+id,
        }  
     },
     methods: {
@@ -22,10 +21,9 @@ const { createApp } = Vue
                     console.log(data)
                     this.id=data.id
                     this.nombre = data.nombre;
-                    this.imagen=data.imagen
-                    this.stock=data.stock
-                    this.codigo=data.codigo
-                    this.precio=data.precio               
+                    this.email=data.email
+                    this.contraseña=data.contraseña
+                    this.rol=data.rol 
                 })
                 .catch(err => {
                     console.error(err);
@@ -33,15 +31,14 @@ const { createApp } = Vue
                 })
         },
         modificar() {
-            let producto = {
+            let usuario = {
                 nombre:this.nombre,
-                precio: this.precio,
-                stock: this.stock,
-                codigo: this.codigo,
-                imagen: this.imagen
+                email: this.email,
+                contraseña: this.contraseña,
+                rol: this.rol
             }
             var options = {
-                body: JSON.stringify(producto),
+                body: JSON.stringify(usuario),
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
                 redirect: 'follow'
@@ -49,11 +46,11 @@ const { createApp } = Vue
             fetch(this.url, options)
                 .then(function () {
                     alert("Registro modificado")
-                    window.location.href = "./productos_info.html"; // navega a productos.html          
+                    window.location.href = "./usuarios_info.html";       
                 })
                 .catch(err => {
                     console.error(err);
-                    alert("Error al Modificar")
+                    alert("Error al modificar")
                 })      
         }
     },

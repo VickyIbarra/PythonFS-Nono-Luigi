@@ -209,7 +209,21 @@ body {
     margin-bottom: 10px;
   }
 
+.table-responsive{
+}
 
+ .tabla-productos{
+    border: 3px solid rgb(148, 125, 108);
+    border-collapse: collapse;
+    padding: 0px;
+    width: 1200px;
+ }
+ 
+ .tabla-productos tbody{
+    border: 3px solid rgb(148, 125, 108);
+    padding: 20px;
+    width: 600px;
+ }
 
 .tabla-productos {
     width: 100%; /* Ajusta el ancho según sea necesario */
@@ -316,15 +330,27 @@ body {
     background-color: rgb(93, 182, 15); /* Cambio de color al pasar el mouse */
 }
 
-.alta-productos .btn-danger {
-    background-color: #dc3545; /* Color de fondo para botón de eliminar */
-    border: none;
+.alta-contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
-.alta-productos .btn-danger:hover {
-    background-color: #c82333; /* Cambio de color al pasar el mouse */
-}
-  
+ .alta-productos{
+    border: 3px solid rgb(148, 125, 108);
+    border-collapse: collapse;
+    padding: 0px;
+    width: 600px;
+ }
+ 
+ .alta-productos tbody{
+    border: 3px solid rgb(148, 125, 108);
+    padding: 20px;
+    width: 600px;
+ }
+
 
 .editar-productos {
     width: 100%; /* Ajusta el ancho según sea necesario */
@@ -408,21 +434,86 @@ body {
 /*     background-color: #f2f2f2; */
   }
 
-.table-responsive{
-}
 
- .tabla-productos{
+ .tabla-usuarios{
     border: 3px solid rgb(148, 125, 108);
     border-collapse: collapse;
     padding: 0px;
     width: 1200px;
  }
  
- .tabla-productos tbody{
+ .tabla-usuarios tbody{
     border: 3px solid rgb(148, 125, 108);
     padding: 20px;
     width: 600px;
  }
+
+ .tabla-usuarios {
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    border: 3px solid rgb(148, 125, 108); /* Borde de la tabla */
+    border-collapse: collapse; /* Colapso del borde */
+}
+
+.tabla-usuarios th,
+.tabla-usuarios td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center; /* Alinea el texto en las celdas al centro */
+}
+
+.tabla-usuarios th {
+    /*background-color: #f2f2f2; /* Color de fondo para las cabeceras */
+}
+
+
+.alta-usuarios {
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    border: 3px solid rgb(148, 125, 108); /* Borde de la tabla */
+    border-collapse: collapse; /* Colapso del borde */
+}
+
+.alta-usuarios th,
+.alta-usuarios td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center; /* Alinea el texto en las celdas al centro */
+}
+
+.alta-usuarios th {
+    /*background-color: #f2f2f2; /* Color de fondo para las cabeceras */
+}
+
+.alta-usuarios td img {
+    display: block;
+    margin: 0 auto; /* Centra las imágenes dentro de las celdas */
+}
+
+/* Estilos para los botones */
+.alta-usuarios .btn {
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el padding según sea necesario */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px; /* Tamaño de fuente */
+    background-color: rgb(109, 116, 86);
+    margin-bottom: 10px; /* Espacio inferior entre botones */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.alta-usuarios .btn:hover {
+    background-color: rgb(93, 182, 15); /* Cambio de color al pasar el mouse */
+}
+
+.alta-usuarios .btn-primary {
+    background-color: rgb(109, 116, 86); /* Color de fondo principal */
+    border: none;
+}
+
+.alta-usuarios .btn-primary:hover {
+    background-color: rgb(93, 182, 15); /* Cambio de color al pasar el mouse */
+}
+
 
 .alta-contenedor{
     display: flex;
@@ -432,22 +523,19 @@ body {
     margin-left: 50px;
 }
 
- .alta-productos{
+.alta-usuarios{
     border: 3px solid rgb(148, 125, 108);
     border-collapse: collapse;
     padding: 0px;
     width: 600px;
  }
  
- .alta-productos tbody{
+ .alta-usuarios tbody{
     border: 3px solid rgb(148, 125, 108);
     padding: 20px;
     width: 600px;
  }
 
-
-
-  
     
 /*footer*/
 #pie-pagina {
