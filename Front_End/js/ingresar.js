@@ -52,6 +52,6 @@ const iniciarSesion = document.querySelector('#iniciarSesion')
     if (validUser.isAdmin) {
         window.location.href = 'index_adm.html'
       } else {
-        window.location.href = 'productos.html'
+        window.location.href = 'carrito.html'
       }
  })
