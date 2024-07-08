@@ -11,7 +11,7 @@ const { createApp } = Vue
         stock:0,
         codigo:"",
         precio:0,
-        url:'http://localhost:5000/productos_info/'+id,
+        url:'https://nonoluigi.pythonanywhere.com/productos_info/'+id,
        }  
     },
     methods: {

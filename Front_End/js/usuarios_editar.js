@@ -10,7 +10,7 @@ const { createApp } = Vue
         email:"",
         contraseña:"",
         rol:0,
-        url:'http://localhost:5000/usuarios_info/'+id,
+        url:'https://nonoluigi.pythonanywhere.com/usuarios_info/'+id,
        }  
     },
     methods: {

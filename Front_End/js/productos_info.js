@@ -3,7 +3,7 @@ const { createApp } = Vue
     data() {
       return {
         productos:[],
-        url:'http://localhost:5000/productos_info', 
+        url:'https://nonoluigi.pythonanywhere.com/productos_info', 
    // si el backend esta corriendo local  usar localhost 5000(si no lo subieron a pythonanywhere)
         //url:'http://mcerda.pythonanywhere.com/productos',   // si ya lo subieron a pythonanywhere
         error:false,
